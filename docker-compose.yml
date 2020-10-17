@@ -1,0 +1,8 @@
+version: '3'
+services:
+  aglio:
+    container_name: docker-compose-aglio
+    build: .
+    image: docker-compose-aglio
+    ports: 
+      - "3000:3000"
